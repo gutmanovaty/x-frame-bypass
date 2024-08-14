@@ -69,9 +69,10 @@ customElements.define('x-frame-bypass', class extends HTMLIFrameElement {
 	}
 	fetchProxy (url, options, i) {
 		const proxies = (options || {}).proxies || [
-			'https://api.codetabs.com/v1/proxy/?quest='			
+			'http://cors.bartosik.run:4000/',
+			/* 'https://api.codetabs.com/v1/proxy/?quest='			
 			'https://cors-anywhere.herokuapp.com/',
-			'https://yacdn.org/proxy/',
+			'https://yacdn.org/proxy/', */
 		]
 		return fetch(proxies[i] + url, options).then(res => {
 			if (!res.ok)
