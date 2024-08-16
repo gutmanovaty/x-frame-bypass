@@ -12,8 +12,8 @@ X-Frame-Bypass is a [Web Component](https://www.webcomponents.org/introduction),
 
 2. Include the X-Frame-Bypass JS module:
 
-		<script type="module" src="https://unpkg.com/x-frame-bypass"></script>
-
+	<!--<script src="https://cdn.jsdelivr.net/gh/gutmanovaty/x-frame-bypass/x-frame-bypass.js" type="module"></script>-->
+        <script type="module" src="https://cdn.jsdelivr.net/gh/gutmanovaty/x-frame-bypass/x-frame-bypass_module.js"></script>
 3. Insert the X-Frame-Bypass Custom Element:
 
 		<iframe is="x-frame-bypass" src="https://example.org/"></iframe>
@@ -24,4 +24,8 @@ See the [Hacker News using X-Frame-Bypass](https://niutech.github.io/x-frame-byp
 
 ## License
 
-&copy; 2019 Jerzy Głowacki under Apache License 2.0.
+&copy;2024 Updated by Bartosz Bartosik, thanks to &copy;2019 Jerzy Głowacki under Apache License 2.0.
+
+
+
+         
